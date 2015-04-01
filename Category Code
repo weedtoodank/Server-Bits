@@ -4,7 +4,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = true,
 	color = Color(0, 107, 0, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 100,
 }
 
@@ -13,7 +13,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = true,
 	color = Color(25, 25, 170, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 101,
 }
 
@@ -22,7 +22,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = true,
 	color = Color(75, 75, 75, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 102,
 }
 
@@ -31,7 +31,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = true,
 	color = Color(0, 107, 0, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 255,
 }
 
@@ -40,7 +40,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = false,
 	color = Color(214, 203, 45, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 500,
 }
 
@@ -49,7 +49,7 @@ DarkRP.createCategory{
 	categorises = "jobs",
 	startExpanded = true,
 	color = Color(122, 54, 54, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 102,
 }
 
@@ -58,6 +58,6 @@ DarkRP.createCategory{
 	categorises = "entities",
 	startExpanded = true,
 	color = Color(0, 107, 0, 255),
-	canSee = fp{fn.Id, true},
+	canSee = function(ply) return true end,
 	sortOrder = 100,
 }
