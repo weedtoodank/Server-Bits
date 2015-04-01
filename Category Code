@@ -1,0 +1,63 @@
+
+DarkRP.createCategory{
+	name = "Citizens",
+	categorises = "jobs",
+	startExpanded = true,
+	color = Color(0, 107, 0, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 100,
+}
+
+DarkRP.createCategory{
+	name = "Civil Protection",
+	categorises = "jobs",
+	startExpanded = true,
+	color = Color(25, 25, 170, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 101,
+}
+
+DarkRP.createCategory{
+	name = "Gangsters",
+	categorises = "jobs",
+	startExpanded = true,
+	color = Color(75, 75, 75, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 102,
+}
+
+DarkRP.createCategory{
+	name = "Other",
+	categorises = "jobs",
+	startExpanded = true,
+	color = Color(0, 107, 0, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 255,
+}
+
+DarkRP.createCategory{
+	name = "VIP",
+	categorises = "jobs",
+	startExpanded = false,
+	color = Color(214, 203, 45, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 500,
+}
+
+DarkRP.createCategory{
+	name = "Criminals",
+	categorises = "jobs",
+	startExpanded = true,
+	color = Color(122, 54, 54, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 102,
+}
+
+DarkRP.createCategory{
+	name = "Money Printers",
+	categorises = "entities",
+	startExpanded = true,
+	color = Color(0, 107, 0, 255),
+	canSee = fp{fn.Id, true},
+	sortOrder = 100,
+}
